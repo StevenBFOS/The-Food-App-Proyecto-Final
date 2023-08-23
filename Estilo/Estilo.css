@@ -1,0 +1,87 @@
+/* Página de inicio */
+body {
+    background-color: rgb(4, 86, 59);
+    font-family: 'Nunito', sans-serif;
+}
+#inicio {
+    padding: 150px 0px 0px 0px;
+    text-align: center;
+    color: rgb(255, 180, 0);
+}
+#imagenInicio{
+    width: 350px;
+    padding: 50px;
+}
+#botonInicio {
+    color:rgb(4, 86, 59);
+    font-weight: bold;
+}
+
+/* Main Body Accordion Content*/
+.accordion {
+    padding:10px;
+}
+.cardDeck {
+    padding: 10px 5px;
+}
+.cardSize {
+    max-width: 172px;
+    padding: 2px;
+}
+.card-text {
+    text-align: center;
+    color: green;
+}
+#imagenPage1{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin: 0px 10px;
+}
+
+/*Botón JSON*/
+
+#JSON {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#botonJSON{
+    border-radius: 50%;
+    background-color: transparent;
+    border-style: hidden;
+}
+#botonMenu{
+    border-style: outset;
+    margin-right: 300px ;
+}
+
+/*  Comentarios */
+#caja {
+    background-color: rgb(219, 219, 219);
+    min-height: 400px;
+    padding: 0px 20px;
+    border-style: groove;
+    border-radius: 2%;
+}
+
+@media (min-width: 600px) {
+    .cardSize {
+        max-width: 250px;
+    }
+    body {
+        font-size: 20px;
+    }
+    #botonMenu{
+        margin-left: 0px;
+    }
+
+}
+
+
