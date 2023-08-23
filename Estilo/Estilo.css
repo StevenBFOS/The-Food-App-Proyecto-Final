@@ -54,6 +54,6 @@ body {
 }
 #botonJSON{
     border-radius: 50%;
-    background-color: rgb(255, 180, 0);
+    background-color: transparent;
     border-style: hidden;
 }
